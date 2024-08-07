@@ -18,10 +18,3 @@ build_script:
 
 test_script:
   - yarn lint && yarn test && yarn e2e
-
-deploy_script: # скрипт развёртывания
-  - git config --global credential.helper store
-  - git config --global user.name melnikonayana
-  - git config --global user.email bezotechestvo.yana@gmail.com
-  - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
-  - yarn push-dir --dir=dist --branch=gh-pages --force --verbose
