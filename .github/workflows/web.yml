@@ -1,4 +1,4 @@
-name: Netology AHJ
+name: ahj-4-testing
 
 on: [push, pull_request]
 
