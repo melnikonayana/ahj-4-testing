@@ -20,8 +20,7 @@ describe('Page start', () => {
       });
     });
 
-    browser = await puppeteer.launch({
-    });
+    browser = await puppeteer.launch({});
 
     page = await browser.newPage();
   });
