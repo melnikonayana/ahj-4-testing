@@ -13,10 +13,5 @@ module.exports = merge(common, {
     historyApiFallback: true,
     open: true,
     compress: true
-  },
-
-  plugins: [
-    // Only update what has changed on hot reload
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  }
 });
