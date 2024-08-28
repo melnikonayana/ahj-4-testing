@@ -1,0 +1,1 @@
+h1{display:flex;justify-content:center}.invalid{color:red}.valid{color:green}.cards{display:flex;justify-content:center;padding:10px 0}.card{border:1px solid gray;border-radius:4px;height:25px;margin-right:4px;opacity:.2;width:39px}.active-card{opacity:1}.card-form-widget{display:flex;justify-content:center}.submit{background-color:green;color:#fff;margin:auto 10px}
